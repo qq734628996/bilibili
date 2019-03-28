@@ -4,7 +4,7 @@ Extract the video of bilibili cache on the phone without loss.
 
 将B站（[bilibili.com](bilibili.com)）缓存在手机上的视频无损提取出来。
 
-## usage
+## Usage
 
 需要安装[ffmpeg](http://ffmpeg.com/)。
 
@@ -16,6 +16,6 @@ B站在手机中的默认缓存路径为`Android\data\tv.danmaku.bili\download`�
 python bilibili.py avpath
 ```
 
-## demo
+## Demo
 
 ![alt text](demo/demo.gif)
