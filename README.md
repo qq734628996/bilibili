@@ -6,13 +6,17 @@ Extract the video of bilibili cache on the phone without loss.
 
 ## Usage
 
-需要安装[ffmpeg](http://ffmpeg.com/)。
+需要安装[ffmpeg](http://ffmpeg.com/)，Windows请自行到官网下载，并配置环境变量或者将`ffmpeg.exe`置于`bilibili.py`相同路径下；linux和unix安装ffmpeg，例如Ubuntu：
+
+```shell
+$ apt install ffmpeg
+```
 
 B站在手机中的默认缓存路径为`Android\data\tv.danmaku.bili\download`，进去后可以看到av号，里面是对应的视频。
 
 将手机里的缓存视频拷贝到电脑里面，运行
 
-```python
+```shell
 python bilibili.py avpath
 ```
 
